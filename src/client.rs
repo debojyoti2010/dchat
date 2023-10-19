@@ -10,7 +10,7 @@ use std::time::Duration;
 use tokio::runtime::Runtime;
 use tokio::time::sleep;
 
-const API_URL: &str = "https://api.openai.com/v1/chat/completions";
+const API_URL: &str = "https://chat.psnext.info/api/v1/messages";
 
 #[allow(clippy::module_name_repetitions)]
 #[derive(Debug)]
